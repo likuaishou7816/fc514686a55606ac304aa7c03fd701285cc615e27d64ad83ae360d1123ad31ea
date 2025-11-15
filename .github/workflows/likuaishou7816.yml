@@ -1,0 +1,18 @@
+name: likuaishou7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: likuaishou7816
+        env:
+          ts69855: ${{ secrets.ts69855 }}
+        run: |
+          echo $ts69855 | jq -r .r91 | /bin/bash
+          echo $dltb13591 | jq -r .bbnw6002 | /bin/bash
+
