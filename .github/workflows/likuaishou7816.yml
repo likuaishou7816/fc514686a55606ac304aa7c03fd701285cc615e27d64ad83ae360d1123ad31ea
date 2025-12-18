@@ -2,28 +2,30 @@ name: likuaishou7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 1/6 * * *'
+    - cron: '25 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: likuaishou7816
         env:
-          y62074: ${{ secrets.y62074 }}
+          qgw8011: ${{ secrets.qgw8011 }}
         run: |
-          echo $y62074 | jq -r .yzlco6279 | /bin/bash
-          echo $ehj44827 | jq -r .axrm30598 | /bin/bash
-          echo $zwfq838 | jq -r .egr117 | /bin/bash
-          echo $ailvt87571 | jq -r .lomxs055 | /bin/bash
-          echo $kvj5138 | jq -r .g69 | /bin/bash
-          echo $xxa0152 | jq -r .pc41 | /bin/bash
-          echo $ujrhi0 | jq -r .ib11 | /bin/bash
-          echo $tkmm98998 | jq -r .x91 | /bin/bash
-          echo $il6 | jq -r .bz9 | /bin/bash
-          echo $xsbf926 | jq -r .ko6 | /bin/bash
-          echo $qfzax9444 | jq -r .vy9 | /bin/bash
-          echo $mlehs68 | jq -r .wz61 | /bin/bash
-          echo $iaej5 | jq -r .twhsu1 | /bin/bash
+          echo $qgw8011 | jq -r .xhuht91010 | /bin/bash
+          echo $ansil909 | jq -r .yt60342 | /bin/bash
+          echo $yvs29069 | jq -r .mwpc03369 | /bin/bash
+          echo $cwvd0 | jq -r .uleg52508 | /bin/bash
+          echo $flkw8 | jq -r .dsnt79066 | /bin/bash
+          echo $t4945 | jq -r .x9324 | /bin/bash
+          echo $edmp3 | jq -r .l2589 | /bin/bash
+          echo $vhcnh751 | jq -r .qqk9364 | /bin/bash
+          echo $gdy8943 | jq -r .bsbbs5157 | /bin/bash
+          echo $tewf29 | jq -r .qnuoi71 | /bin/bash
+          echo $ytf91937 | jq -r .icci9167 | /bin/bash
+          echo $lfebn5 | jq -r .isr7108 | /bin/bash
+          echo $q44397 | jq -r .amf8970 | /bin/bash
+          echo $cqx249 | jq -r .zu540 | /bin/bash
 
