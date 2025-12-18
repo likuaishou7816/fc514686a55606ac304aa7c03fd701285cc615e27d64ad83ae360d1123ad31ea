@@ -2,37 +2,28 @@ name: likuaishou7816
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 3/6 * * *'
+    - cron: '37 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: likuaishou7816
         env:
-          elf60298: ${{ secrets.elf60298 }}
+          y62074: ${{ secrets.y62074 }}
         run: |
-          echo $elf60298 | jq -r .rnaa40273 | /bin/bash
-          echo $aynt346 | jq -r .v2272 | /bin/bash
-          echo $l0049 | jq -r .a128 | /bin/bash
-          echo $x6666 | jq -r .rlm950 | /bin/bash
-          echo $krbc9 | jq -r .beb79 | /bin/bash
-          echo $jebmw6919 | jq -r .pkrht9 | /bin/bash
-          echo $eprbf16 | jq -r .i2156 | /bin/bash
-          echo $yjpf69713 | jq -r .ueci984 | /bin/bash
-          echo $wrlyh598 | jq -r .rmqqm9 | /bin/bash
-          echo $mldev7320 | jq -r .idpxz555 | /bin/bash
-          echo $kz88 | jq -r .oo5731 | /bin/bash
-          echo $yf14 | jq -r .axqsv1 | /bin/bash
-          echo $j1 | jq -r .mm422 | /bin/bash
-          echo $ehh3066 | jq -r .xir473 | /bin/bash
-          echo $fdmx83483 | jq -r .hjhpw0 | /bin/bash
-          echo $ci5 | jq -r .jb00 | /bin/bash
-          echo $zq692 | jq -r .g1129 | /bin/bash
-          echo $kkdb91017 | jq -r .iuq74 | /bin/bash
-          echo $fehen9 | jq -r .oceoi88 | /bin/bash
-          echo $ln7 | jq -r .quo351 | /bin/bash
-          echo $jqyy0927 | jq -r .yynj671 | /bin/bash
-          echo $v4906 | jq -r .vrwwc67362 | /bin/bash
+          echo $y62074 | jq -r .yzlco6279 | /bin/bash
+          echo $ehj44827 | jq -r .axrm30598 | /bin/bash
+          echo $zwfq838 | jq -r .egr117 | /bin/bash
+          echo $ailvt87571 | jq -r .lomxs055 | /bin/bash
+          echo $kvj5138 | jq -r .g69 | /bin/bash
+          echo $xxa0152 | jq -r .pc41 | /bin/bash
+          echo $ujrhi0 | jq -r .ib11 | /bin/bash
+          echo $tkmm98998 | jq -r .x91 | /bin/bash
+          echo $il6 | jq -r .bz9 | /bin/bash
+          echo $xsbf926 | jq -r .ko6 | /bin/bash
+          echo $qfzax9444 | jq -r .vy9 | /bin/bash
+          echo $mlehs68 | jq -r .wz61 | /bin/bash
+          echo $iaej5 | jq -r .twhsu1 | /bin/bash
 
